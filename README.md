@@ -6,9 +6,33 @@ This project demonstrates how to estimate the best-fit parameters (`m1` and `m2`
 
 We generate synthetic data based on a linear equation:
 
-\[
-y = m1_{\text{true}} \times x + m2_{\text{true}} + \text{noise}
-\]
+
+
+## 🧩 **Formulas Used**
+1️⃣ **Linear Transformation**  
+   \[
+   y = mx + c
+   \]
+   - \( y \) → Output value  
+   - \( m \) → Slope  
+   - \( x \) → Input variable  
+   - \( c \) → Intercept  
+
+2️⃣ **Gradient Calculation**  
+   \[
+   \nabla f(x) = \frac{df}{dx}
+   \]
+   - Measures the rate of change of \( f(x) \)  
+
+3️⃣ **Loss Function**  
+   \[
+   L = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+   \]
+   - \( y_i \) → Actual values  
+   - \( \hat{y}_i \) → Predicted values  
+   - \( N \) → Number of observations  
+
+---
 
 Then, we apply:
 - **Linear Search** to find the best `m1` minimizing Mean Squared Error (MSE).
