@@ -11,13 +11,14 @@ We generate synthetic data based on a linear equation:
 ## 🧩 **Formulas Used**
 ## 1️⃣ Linear Transformation
 \[
-y = m_1x + m_2
+y = m_1x + m_2 + n(0,1)
 \]
 
 - \( y \) → Output value  
 - \( m_1 \) → Slope  
 - \( x \) → Input variable  
-- \( m_2 \) → Intercept  
+- \( m_2 \) → Intercept
+- \(n(0,1)\) → Noise
 
 ---
 
@@ -33,7 +34,7 @@ MSE = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
 
 Where:  
 - \( y_i \) → Actual values  
-- \( \hat{y}_i \) → Predicted values  
+- \( hat{y}_i ) → Predicted values  
 - \( N \) → Number of observations  
 
 
