@@ -29,7 +29,7 @@ Measures the rate of change of \( f(x) \).
 
 ## 3️⃣ Loss Function
 \[
-MSE = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+L = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
 \]
 
 Where:  
