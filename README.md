@@ -9,24 +9,33 @@ We generate synthetic data based on a linear equation:
 
 
 ## 🧩 **Formulas Used**
-1️⃣ **Linear Transformation**  
-   \[
-   y = m1x + m2
-   \]
-   - \( y \) → Output value  
-   - \( m1 \) → Slope  
-   - \( x \) → Input variable  
-   - \( m2 \) → Intercept  
+## 1️⃣ Linear Transformation
+\[
+y = m_1x + m_2
+\]
 
-2️⃣ **Gradient Calculation**  
-  - Measures the **rate of change** of \( f(x) \).  
-  
-3️⃣ **Loss Function**  
-  - \( y_i \) → Actual values  
+- \( y \) → Output value  
+- \( m_1 \) → Slope  
+- \( x \) → Input variable  
+- \( m_2 \) → Intercept  
+
+---
+
+## 2️⃣ Gradient Calculation
+Measures the rate of change of \( f(x) \).
+
+---
+
+## 3️⃣ Loss Function
+\[
+MSE = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+\]
+
+Where:  
+- \( y_i \) → Actual values  
 - \( \hat{y}_i \) → Predicted values  
 - \( N \) → Number of observations  
 
----
 
 Then, we apply:
 - **Linear Search** to find the best `m1` minimizing Mean Squared Error (MSE).
