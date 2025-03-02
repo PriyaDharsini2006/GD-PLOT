@@ -11,26 +11,20 @@ We generate synthetic data based on a linear equation:
 ## 🧩 **Formulas Used**
 1️⃣ **Linear Transformation**  
    \[
-   y = mx + c
+   y = m1x + m2
    \]
    - \( y \) → Output value  
-   - \( m \) → Slope  
+   - \( m1 \) → Slope  
    - \( x \) → Input variable  
-   - \( c \) → Intercept  
+   - \( m2 \) → Intercept  
 
 2️⃣ **Gradient Calculation**  
-   \[
-   \nabla f(x) = \frac{df}{dx}
-   \]
-   - Measures the rate of change of \( f(x) \)  
-
+  - Measures the **rate of change** of \( f(x) \).  
+  
 3️⃣ **Loss Function**  
-   \[
-   L = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
-   \]
-   - \( y_i \) → Actual values  
-   - \( \hat{y}_i \) → Predicted values  
-   - \( N \) → Number of observations  
+  - \( y_i \) → Actual values  
+- \( \hat{y}_i \) → Predicted values  
+- \( N \) → Number of observations  
 
 ---
 
