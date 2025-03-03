@@ -50,10 +50,10 @@ def plot_linear_search(m1_vals, mse_vals, best_m1, min_mse):
 
 plot_linear_search(m1_vals, mse_vals, best_m1_ls, min_mse_ls)
 
-def gradient_descent(x, y, learning_rate=0.001, epochs=100, initial_m1=-12, initial_m2=12):
+def gradient_descent(x, y, learning_rate=0.001, epochs=2000, initial_m1=-12, initial_m2=12):
     """
     Perform gradient descent to optimize m1 and m2.
-    
+
     Gradient update rules:
     - grad_m1 = (-2/n) * Σ(x * (y - y_pred))
     - grad_m2 = (-2/n) * Σ(y - y_pred))
