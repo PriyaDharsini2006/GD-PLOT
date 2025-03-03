@@ -53,5 +53,6 @@ This method evaluates different values of `m1` within a range and selects the on
 Gradient Descent updates `m1` and `m2` iteratively based on computed gradients.
 ![Gradient](https://github.com/user-attachments/assets/f77d2cde-dc59-4681-966d-5680964d230a)
 
+![Result](https://github.com/user-attachments/assets/89ead175-3302-465b-8f83-bbc1f767662f)
 
-![Results](https://github.com/user-attachments/assets/a536f22c-1f54-4735-becc-50464e426a13)
+!
