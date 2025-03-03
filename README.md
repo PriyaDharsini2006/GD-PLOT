@@ -29,14 +29,9 @@ Measures the rate of change of \( f(x) \).
 
 ## 3️⃣ Loss Function
 \[
-MSE = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+MSE = frac 1/ N sum_i=1 to N (y - yi)^2
 \]
 
-
-Where:  
-- \( y_i \) → Actual values  
-- \( hat{y}_i ) → Predicted values  
-- \( N \) → Number of observations  
 
 
 Then, we apply:
